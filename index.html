@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assest/fav icon/Untitled.png" type="image/x-icon">
+    <script src="main.js" defer></script>
+    <title>To-Do App</title>
+</head>
+
+<body>
+    <nav class="navbar top sticky-top">
+        <div class="container">
+            <a class="navbar-brand fs-4 color fw-bold d-flex align-items-center " href="index.html"><span class="icon"><i
+                        class="bi bi-list-ul bg-secondary-white fs-2 rounded-2 me-3 "></i></span>MY
+                TASKS</a>
+        </div>
+    </nav>
+    <div class="container w-50 formTask px-5 py-4 rounded-4 shadow">
+        <header>
+            <form class="form-group d-flex align-items-center justify-content-center mb-5 mx-auto gap-3 my-4">
+                <input class="form-control  py-2" type="text" id="task" placeholder="what do you want to do?">
+                
+                <button class="btn d-flex" type="submit">Add Task</button>
+            </form>
+        </header>
+        <section>
+            <div class="  mx-auto gap-3 my-4">
+                <ul class="alltasks">
+
+                </ul>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+</body>
+
+</html>
